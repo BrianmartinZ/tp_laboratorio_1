@@ -1,4 +1,5 @@
-
+#include <stdio.h>
+#include <stdlib.h>
 #include "tp1.h"
 
 /// \brief Pide un numero entero al usuario.
