@@ -200,5 +200,52 @@ int MostrarOpciones(int opcionesNumero)
 	return opcionesNumero;
 }
 
+/// \brief Imprime los resultados de Latam.
+/// \param kmingresado1
+/// \param precio2
+/// \param descuento3
+/// \param intereses4
+/// \param bitcoin5
+/// \param costKm6
+/// \param diferencia
+void ImprimirResultadosLatam (int kmingresado1,float precio2,float descuento3,float intereses4,float bitcoin5,float costKm6,float diferencia)
+{
+
+					//IMPRIME LATAM:
+					printf("Km Ingresados: %d km\n\n",kmingresado1);
+					printf("LATAM: \n\n");
+					printf("Precio Latam: $ %.2f\n",precio2);
+					printf("a) El precio con Tarjeta de débito: $ %.2f\n",descuento3);
+					printf("b) El Precio con tarjeta de crédito: $ %.2f\n",intereses4);
+					printf("c) Precio pagando con bitcoin: %f BTC\n",bitcoin5);
+					printf("d) Precio unitario: $ %.2f\n\n",costKm6);
+					printf("e) La diferencia de precios es: $ %.2f\n\n",diferencia);
+
+}
+
+/// \brief Imprime los resultados de aerolineas.
+/// \param kmingresado1
+/// \param precio2
+/// \param descuento3
+/// \param intereses4
+/// \param bitcoin5
+/// \param costKm6
+/// \param diferencia
+void ImprimirResultadosAero (int kmingresado1,float precio2,float descuento3,float intereses4,float bitcoin5,float costKm6,float diferencia)
+{
+
+					//IMPRIME AEROLINEAS:
+					printf("Km Ingresados: %d km\n\n",kmingresado1);
+					printf("AEROLINEAS: \n\n");
+					printf("Precio Aerolineas: $ %.2f\n",precio2);
+					printf("a) El precio con Tarjeta de débito: $ %.2f\n",descuento3);
+					printf("b) El Precio con tarjeta de crédito: $ %.2f\n",intereses4);
+					printf("c) Precio pagando con bitcoin: %f BTC\n",bitcoin5);
+					printf("d) Precio unitario: $ %.2f\n\n",costKm6);
+					printf("e) La diferencia de precios es: $ %.2f\n\n",diferencia);
+
+}
+
+
 
 

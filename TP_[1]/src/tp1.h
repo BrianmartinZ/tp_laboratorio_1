@@ -1,5 +1,6 @@
 
-
+void ImprimirResultadosLatam (int,float,float,float,float,float,float);
+void ImprimirResultadosAero (int,float,float,float,float,float,float);
 float PedirNumeroFlotante(char[]);
 int PedirNumeroEntero(char[]);
 int ValidarKm(int);
