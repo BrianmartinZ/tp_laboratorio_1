@@ -117,8 +117,14 @@ float CostoPorKm (float precio,int kmIngresado)
 float DiferenciaPrecio (float precioA,float precioL)
 {
 	float diferencia;
-
-	diferencia = precioL - precioA;
+	if(precioL>precioA)
+	{
+		diferencia = precioL - precioA;
+	}
+	else
+	{
+	    diferencia = precioA - precioL;
+	}
 
 	return diferencia;
 }
